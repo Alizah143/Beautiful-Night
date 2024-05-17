@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.scene{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(#111425, #3751e0);
+    background-attachment: fixed;
+    overflow: hidden;
+}
+.stars{
+    color: white;
+    background-color: white;
+}
+.scene i {
+    background-color: white;
+    position: absolute;
+    border-radius: 50%;
+}
